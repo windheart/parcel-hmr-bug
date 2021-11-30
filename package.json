@@ -1,0 +1,20 @@
+{
+  "name": "parcel-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "parcel": "~2.0.1",
+    "typescript": "~3.9.10"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "parcel packages/app -p 3000"
+  },
+  "alias": {
+    "@test/*": "./packages/$1/src"
+  }
+}

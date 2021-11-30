@@ -1,0 +1,11 @@
+{
+  "name": "@test/components",
+  "version": "0.0.0",
+  "main": "src/index.ts",
+  "private": true,
+  "dependencies": {
+    "react": "~16.14.0",
+    "react-dom": "~16.14.0"
+  },
+  "sideEffects": "*"
+}
