@@ -1,5 +1,5 @@
 export function fn1() {
     console.log('fn1')
 
-    return 'fn11'
+    return 'fn1'
 }
